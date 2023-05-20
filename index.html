@@ -9,9 +9,17 @@
                  }
                  img
              </style>
-     	</head>
-        <body>
-            <h1 class="bounce">MY WEB PAGE!</h1>
+     	<head>
+        <style>
+            .blimk{
+		  animation: blink-animation 5s steps(2,start) infinite;
+		}
+
+		@keyframes blink-animation{
+		to {
+		 visibility: hidden;
+		}
+		}
             
             <style>
                 .main {
@@ -39,33 +47,27 @@
                     border-radius: 10px;
                     cursor: pointer;
                 }
+                .botton2 {
+                    background-color: rgb(102 204 0);
+                    color: white;
+                    border: double;
+                    border-style: solid;
+                    border-color: black;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    }
 
                 .word {
                     font-family: 'Agency FB';
                     font-size: 42px;
                     text-align: center;
-                    color: rgb(38 36 36);
+                    color: rgb(26 219 255);
                     margin-top: 0;
                     margin-bottom: 20px;
                 }
-                .bounce {
-                animation: bounce 1s ease-in-out infinite;
-                font-family: 'Agency FB';
-                font-size: 64px;
-                text-align: center;
-                margin-top: 0;
-                margin-bottom: 20px;
-                }
-
-                @keyframes bounce {
-                0%, 100% {
-                  transform: translateY(0);
-                }
-                50% {
-                  transform: translateY(-20px);
-                }
-                 }
-		
+		</head>
+		<body>
+			<h1 class="main><span class="blink">MY WEBPAFE</h1>
             </style>
             <center><img class="pic" src="Noff.jpg" /></center>
             <b>
@@ -75,11 +77,19 @@
             <p class="word">Student ID: 63011188</p>
             <b>
             <b>
+            <center>
+            <a class="word" href="https://drive.google.com/file/d/1WeS0DXMcibqTGn0QemJPXlVNRHn7zd9Q/view?usp=share_link">
+            <botton class="botton2">Video FTP with Sivakorn</botton><center></center>
+            </a>
+            <center>
+            <a class="word" href="https://drive.google.com/file/d/10-HQl5xeD37QuYMK26-a7-Y46Y8Zw5c2/view?usp=share_link">
+            <botton class="botton2">Video Checksum with Kasidej</botton><center></center>
+            </a>
             <p class="word">For more Info</p>
             <b>
             <center>
             <a class="word" href="https://www.linkedin.com/in/napat-niamglum/" style="text-decoration: none" target="_blank">
-                <botton class="botton">==>My Linkedin<==</botton><center></center>
+                <botton class="botton">----my linkedin----</botton><center></center>
             </a>
 
         </body>
